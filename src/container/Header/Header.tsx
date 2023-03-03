@@ -10,11 +10,12 @@ import { Container } from '@mui/material'
 
 type Props = {}
 const Header = (props: Props) => {
+    const home = false
     return (
         <AppBar
             position="static"
             style={{
-                backgroundColor: 'green',
+                backgroundColor: home ? 'purple' : 'green',
             }}
         >
             <Container>
