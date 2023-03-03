@@ -14,8 +14,8 @@ const Header = (props: Props) => {
     return (
         <AppBar
             position="static"
-            style={{
-                backgroundColor: home ? 'purple' : 'green',
+            sx={{
+                backgroundColor: 'green',
             }}
         >
             <Container>
